@@ -1,0 +1,38 @@
+{
+  "name": "template-vue",
+  "version": "0.0.0",
+  "description": "fronted template build with Vite + Vue and Vue.jsx plugin",
+  "homepage": "https://github.com/fgaujard/my-vue-template",
+  "bugs": {
+    "url": "https://github.com/fgaujard/my-vue-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgaujard/my-vue-template.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "js-confetti": "^0.12.0",
+    "sass": "^1.77.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.3.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.0"
+  },
+  "lint-staged": {
+    "*.{html,scss,css}": "prettier --check",
+    "*.{jsx,js}": "eslint"
+  },
+  "author": "fgaujard",
+  "license": "MIT"
+}
